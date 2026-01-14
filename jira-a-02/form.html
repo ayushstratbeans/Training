@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="inner">
+      <header class="top">
+        <h1>Employee Details</h1>
+        <h4>New Employee Window</h4>
+      </header>
+      <article class="form-main">
+        <div class="name-box">
+          <p class="name">Name</p>
+          <input type="text" class="name-field" />
+        </div>
+        <div class="department-box">
+          <p class="department">Department</p>
+          <select class="department-select" id="">
+            <option value="hr">HR</option>
+            <option value="technical">Technical</option>
+          </select>
+        </div>
+        <div class="joining-box">
+          <p class="joining">Joining</p>
+          <input type="date" class="date-field" />
+        </div>
+        <div class="active-box">
+          <p class="active">Active</p>
+          <input type="checkbox" value="true" class="check-box" checked />
+          <p class="statusBox" style="color: green">ACTIVE</p>
+        </div>
+      </article>
+      <footer>
+        <button>Submit</button>
+      </footer>
+    </div>
+  </body>
+  <script src="form.js"></script>
+</html>
